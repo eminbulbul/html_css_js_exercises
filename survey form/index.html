@@ -1,52 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <h1>Clarusway Survey Form</h1>
-      <p>Thank you for taking the time to help us improve the platform</p>
+        <h1>Clarusway Survey Form</h1>
+        <p>Thank you for taking the time to help us improve the platform</p>
     </header>
     <div>
-      <form action="#">
-        <label for="name">Name</label>
-        <br /><br />
-        <input
-          type="text"
-          name="name"
-          id="name"
-          placeholder="Enter your name"
-        />
+        <form action="#">
+            <label for="name">Name</label>
+            <br /><br />
+            <input type="text" name="name" id="name" placeholder="Enter your name" />
 
-        <br />
+            <br />
 
-        <label for="surname">Surname</label>
-        <br /><br />
-        <input
-          type="text"
-          name="surname"
-          id="surname"
-          placeholder="Enter your Surname"
-        />
+            <label for="surname">Surname</label>
+            <br /><br />
+            <input type="text" name="surname" id="surname" placeholder="Enter your Surname" />
 
-        <br />
+            <br />
 
-        <label for="email">Email</label>
-        <br /><br />
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="user@clarusway.com"
-        />
+            <label for="email">Email</label>
+            <br /><br />
+            <input type="email" name="email" id="email" placeholder="user@clarusway.com" />
 
-        <p>Which option best describes your current role?</p>
+            <p>Which option best describes your current role?</p>
 
-        <select name="role" id="role">
+            <select name="role" id="role">
           <option disabled selected>Select current role</option>
           <option value="student">Student</option>
           <option value="teacher">Teacher</option>
@@ -54,81 +42,55 @@
           <option value="part_time_job">Part Time Job</option>
           <option value="full_time_learner">Full Time Laerner</option>
           <option value="prefer_not_to_say">Prefer not to say</option>
-        </select>
+          </select>
 
-        <br />
+            <br />
 
-        <p>Would you recommend Clarusway to a friend?</p>
+            <p>Would you recommend Clarusway to a friend?</p>
 
-        <input type="radio" name="user_rec" id="definitely_yes" checked/>
-        <label for="">Definitelly, Yes</label>
-        <br />
-        <input type="radio" name="user_rec" id="maybe" value="maybe" />
-        <label for="">Maybe</label>
-        <br />
-        <input type="radio" name="user_rec" id="notsure" value="not sure" />
-        <label for="">Not sure</label>
-        <br />
-        <input type="radio" name="user_rec" id="def_no" value="definitely,no" />
-        <label for="">Definitely, No</label>
+            <input type="radio" name="user_rec" id="definitely_yes" checked/>
+            <label for="">Definitelly, Yes</label>
+            <br />
+            <input type="radio" name="user_rec" id="maybe" value="maybe" />
+            <label for="">Maybe</label>
+            <br />
+            <input type="radio" name="user_rec" id="notsure" value="not sure" />
+            <label for="">Not sure</label>
+            <br />
+            <input type="radio" name="user_rec" id="def_no" value="definitely,no" />
+            <label for="">Definitely, No</label>
 
-        <p>What is your favorite feature of Clarusway?</p>
+            <p>What is your favorite feature of Clarusway?</p>
 
-        <select name="feature" id="feature">
+            <select name="feature" id="feature">
           <option disabled selected>Select an option</option>
           <option value="courses">Courses</option>
           <option value="projects">Projects</option>
           <option value="community">Community</option>
           <option value="mentors">Mentors</option>
-        </select>
+          </select>
 
-        <br />
+            <br />
 
-        <p>What would you like to see improved? (Check all that apply)</p>
+            <p>What would you like to see improved? (Check all that apply)</p>
 
-        <br />
-        <input
-          type="checkbox"
-          name="projects-c"
-          id="frontend_projects"
-          value="frontend_projects"
-        />
-        <label for="frontend_projects">Front-end Projects</label>
-        <br />
-        <input
-          type="checkbox"
-          name="projects-c"
-          id="backend_projects"
-          value="backend_projects"
-        />
-        <label for="backend_projects">Back-end Projects</label>
-        <br />
-        <input
-          type="checkbox"
-          name="projects-c"
-          id="data_science"
-          value="data-science"
-        />
-        <label for="data_science">Data Science</label>
-        <br />
-        <input
-          type="checkbox"
-          name="projects-c"
-          id="additional_courses"
-          value="additional_courses"
-        />
-        <label for="additional_courses">Additional Courses</label>
-        <br />
-        <p>Any comments or suggestions?</p>
-        <textarea
-          name="comment"
-          id="comment"
-          cols="20"
-          rows="2"
-          placeholder="Enter your comment here...Thanks for your commets...."
-        ></textarea>
-        <input type="button" value="Submit">
-      </form>
+            <input type="checkbox" name="projects-c" id="frontend_projects" value="frontend_projects" />
+            <label for="frontend_projects">Front-end Projects</label>
+            <br />
+            <input type="checkbox" name="projects-c" id="backend_projects" value="backend_projects" />
+            <label for="backend_projects">Back-end Projects</label>
+            <br />
+            <input type="checkbox" name="projects-c" id="data_science" value="data-science" />
+            <label for="data_science">Data Science</label>
+            <br />
+            <input type="checkbox" name="projects-c" id="additional_courses" value="additional_courses" />
+            <label for="additional_courses">Additional Courses</label>
+            <br />
+            <p>Any comments or suggestions?</p>
+            <textarea name="comment" id="comment" style="resize: none;" cols="20" rows="2" placeholder="Enter your comment here...Thanks for your comments...."></textarea>
+            <input type="button" value="Submit">
+        </form>
     </div>
-  </body>
+</body>
+
 </html>
