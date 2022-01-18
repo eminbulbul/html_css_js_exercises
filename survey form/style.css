@@ -1,5 +1,9 @@
+* {
+    font-weight: bold;
+}
+
 body {
-    width: 50%;
+    width: 60%;
     box-sizing: border-box;
 }
 
@@ -17,9 +21,5 @@ p {
 
 button {
     border: none;
-}
-
-header {
-    padding: 0 0.625rem;
-    margin-bottom: 1.875rem;
+    border-radius: 20px;
 }
