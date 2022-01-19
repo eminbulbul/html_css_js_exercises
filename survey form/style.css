@@ -1,4 +1,32 @@
+<<<<<<< HEAD
 h1{
     font-size: 75px;
 
 }
+=======
+* {
+    font-weight: bold;
+}
+
+body {
+    width: 60%;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 1.2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+}
+>>>>>>> cba3c3b3e3f34facd18255f40f8f71ff3f7f6d1d
