@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+h1{
+    font-size: 75px;
+
+}
+=======
 * {
     font-weight: bold;
 }
@@ -23,3 +29,4 @@ button {
     border: none;
     border-radius: 20px;
 }
+>>>>>>> cba3c3b3e3f34facd18255f40f8f71ff3f7f6d1d
